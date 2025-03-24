@@ -1,3 +1,4 @@
+package myPackage;
 import java.lang.Cloneable;
 class Student21 implements Cloneable{
     String name;

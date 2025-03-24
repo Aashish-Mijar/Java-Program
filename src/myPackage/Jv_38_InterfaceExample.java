@@ -1,3 +1,4 @@
+package myPackage;
 // Example 1
 interface Bank{
     float rateOfInterest();

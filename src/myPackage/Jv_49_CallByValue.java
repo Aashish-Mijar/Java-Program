@@ -1,3 +1,4 @@
+package myPackage;
 public class Jv_49_CallByValue {
     int value=50;
     void change(int val){

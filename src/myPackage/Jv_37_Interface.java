@@ -1,3 +1,4 @@
+package myPackage;
 interface example{
     // by default method is abstract
     void print();

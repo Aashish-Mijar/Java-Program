@@ -1,3 +1,4 @@
+package myPackage;
 class Encap{
     private String Ename;
     private int Evalue;

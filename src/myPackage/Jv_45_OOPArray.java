@@ -1,3 +1,4 @@
+package myPackage;
 import java.util.*;
 class TestArray{
     static void mini(int arr[]){

@@ -1,3 +1,4 @@
+package myPackage;
 import java.util.*;
 public class Jv_04_Function {
     public static void printHello(String name){

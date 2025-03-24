@@ -1,3 +1,4 @@
+package myPackage;
 import java.util.Scanner;
 import java.text.NumberFormat;
 public class Jv_03_MortgageCalc {

@@ -1,3 +1,4 @@
+package myPackage;
 class Account{
     private long acc_no;
     private String name, email;

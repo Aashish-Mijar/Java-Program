@@ -1,3 +1,4 @@
+package myPackage;
 import java.util.*;
 public class Jv_51_ExceptionHandle1 {
     public static void main(String[] args) {

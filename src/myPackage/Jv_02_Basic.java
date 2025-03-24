@@ -1,5 +1,4 @@
 package myPackage;
-
 public class Jv_02_Basic {
     public static void main(String[] args){
 /*

@@ -1,3 +1,4 @@
+package myPackage;
 import java.util.*;
 public class Jv_07_GCD {
     public static void main(String[] args){

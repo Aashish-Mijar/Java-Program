@@ -1,3 +1,4 @@
+package myPackage;
 import java.util.*;
 public class Jv_29_methodPrintf {
     public static void main(String[] args) {

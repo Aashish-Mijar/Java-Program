@@ -1,3 +1,4 @@
+package myPackage;
 import java.util.*;
 public class Jv_12_TwoDarrays {
     public static void main(String[] args){

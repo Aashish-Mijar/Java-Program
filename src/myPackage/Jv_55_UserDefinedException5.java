@@ -1,3 +1,4 @@
+package myPackage;
 import java.util.*;
 class UserDefinedException extends Exception{
     public   UserDefinedException(String str){
