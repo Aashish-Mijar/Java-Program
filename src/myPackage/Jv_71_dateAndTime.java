@@ -1,13 +1,10 @@
 package myPackage;
 
 
-import java.time.Instant;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
-import java.time.LocalTime;
-import java.time.format.DateTimeFormatter;
 
-public class jv_71_dateAndTime {
+public class Jv_71_dateAndTime {
     public static void main(String[] args) {
         // (localDate, localtime, localDateTime, UTC timestamp)
         // Custom format
