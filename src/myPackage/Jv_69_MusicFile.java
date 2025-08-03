@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class Jv_69_MusicFile {
     public static void main(String[] args) {
         String filePath="C:\\Users\\dell\\Desktop\\music.wav";
+//        String filePath="C:\\Users\\dell\\Desktop\\FriendlyLetter.MP3";
         File file=new File(filePath);
 
 

@@ -3,7 +3,7 @@ package javaSwing_DBC;
 import javax.swing.*;
 import java.awt.*;
 
-public class Jv_6_GridLayout {
+public class Jv_7_GridLayout {
     public static void main(String[] args) {
 //        Layout Manager = Defines the natural layout for components within a container
 //     GridLayout=  places components in a grid of cells
