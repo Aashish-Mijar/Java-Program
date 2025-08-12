@@ -1,3 +1,4 @@
+package myPackage;
 import java.util.*;
 class Base{
     private int x;

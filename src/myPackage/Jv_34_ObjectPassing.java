@@ -1,4 +1,5 @@
- class Admission{
+package myPackage;
+class Admission{
     String name;
      Admission(String name){
          this.name=name;

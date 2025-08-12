@@ -1,3 +1,4 @@
+package myPackage;
 import java.util.*;
 class Student{
     int rollNo;

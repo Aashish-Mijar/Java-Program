@@ -1,3 +1,4 @@
+package myPackage;
 public class Jv_13_Bits {
     public static void main(String[] args){
 //        Scanner sc=new Scanner(System.in);

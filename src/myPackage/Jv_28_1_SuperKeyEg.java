@@ -1,3 +1,4 @@
+package myPackage;
 class Detail{
     int rollNumber;
     String name;

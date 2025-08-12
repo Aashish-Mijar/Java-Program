@@ -1,3 +1,4 @@
+package myPackage;
 import java.util.*;
 class Base1{
     Base1(){

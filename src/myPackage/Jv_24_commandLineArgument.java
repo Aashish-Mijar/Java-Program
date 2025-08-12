@@ -1,3 +1,4 @@
+package myPackage;
 public class Jv_24_commandLineArgument {
     public static void main(String[] args) {
         if(args.length<2){

@@ -1,3 +1,4 @@
+package myPackage;
 import java.util.*;
 public class Jv_05_Practice {
 //----------Function to print average of three numbers

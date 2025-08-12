@@ -1,5 +1,5 @@
+package myPackage;
 import java.util.*;
-
 public class Jv_06_Practice {
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);

@@ -1,3 +1,4 @@
+package myPackage;
 import java.util.*;
 public class Jv_11_1_ArrayList {
     public static void main(String[] args) {
@@ -15,5 +16,7 @@ public class Jv_11_1_ArrayList {
         for(int i=0; i<food.size(); i++){
             System.out.println("Food is :"+food.get(i));
         }
+        Collections.sort(food);
+        System.out.println(food);
     }
 }

@@ -1,3 +1,4 @@
+package myPackage;
 public class Jv_09_Pattern {
     public static void main(String[] args) {
 

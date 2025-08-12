@@ -1,3 +1,4 @@
+package myPackage;
 class emp{
     int id;
     int salary;

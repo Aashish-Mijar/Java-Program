@@ -1,3 +1,4 @@
+package myPackage;
 import java.util.*;
 class Game{
    public int noOfGuess=0, ran, inp;

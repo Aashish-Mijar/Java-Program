@@ -1,3 +1,4 @@
+package myPackage;
 public class Jv_16_VarArgs {
 //    static int sum(int a, int b){
 //        return a+b;

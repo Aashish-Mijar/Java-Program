@@ -1,3 +1,4 @@
+package myPackage;
 class Test2DArray{
 static void Arr(int arr[][]){
     for(int i=0; i<arr.length; i++){

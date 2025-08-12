@@ -1,3 +1,4 @@
+package myPackage;
 import java.util.*;
 class outer{
     int number;

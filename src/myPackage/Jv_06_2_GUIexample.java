@@ -1,3 +1,4 @@
+package myPackage;
 import javax.swing.JOptionPane;
 public class Jv_06_2_GUIexample {
     public static void main(String[] args) {

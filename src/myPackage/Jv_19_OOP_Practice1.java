@@ -1,3 +1,4 @@
+package myPackage;
 import java.util.*;
 class Employee1{
     int salary;

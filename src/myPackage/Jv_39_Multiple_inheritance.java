@@ -1,3 +1,4 @@
+package myPackage;
 interface numbers{
     // public, static and final
     int tMarks=500;

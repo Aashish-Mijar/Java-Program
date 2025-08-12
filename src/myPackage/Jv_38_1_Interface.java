@@ -1,3 +1,4 @@
+package myPackage;
 interface Camera{
     void takeSnap();
     void recordVideo();

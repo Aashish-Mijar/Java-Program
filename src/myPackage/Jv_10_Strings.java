@@ -1,3 +1,4 @@
+package myPackage;
 public class Jv_10_Strings {
     public static void main(String[] args) {
 //        String name = "Prabin";

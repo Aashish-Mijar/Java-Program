@@ -1,3 +1,4 @@
+package myPackage;
 import java.io.FileNotFoundException;
 import java.io.*;
 public class Jv_54_ThrowExceptionHandle4 {

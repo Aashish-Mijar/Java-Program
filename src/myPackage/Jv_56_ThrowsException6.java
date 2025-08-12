@@ -1,3 +1,4 @@
+package myPackage;
 import java.io.IOException;
 import java.util.*;
 public class Jv_56_ThrowsException6 {

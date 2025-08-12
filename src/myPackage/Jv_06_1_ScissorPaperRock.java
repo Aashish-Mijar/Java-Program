@@ -1,5 +1,5 @@
+package myPackage;
 import java.util.*;
-
 public class Jv_06_1_ScissorPaperRock {
     public static void main(String[] args) {
         // 0 Paper

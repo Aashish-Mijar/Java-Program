@@ -1,3 +1,4 @@
+package myPackage;
 class simple1{
 }
 class simple2 extends simple1{

@@ -1,3 +1,4 @@
+package myPackage;
 public class Jv_50_CallByReference {
     int data=46;
     void change(Jv_50_CallByReference ref){

@@ -1,3 +1,4 @@
+package myPackage;
 import java.util.*;
 class Multiply{
     public int mul(int number1){

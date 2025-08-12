@@ -1,3 +1,4 @@
+package myPackage;
 import java.util.*;
 // Unchecked Exception
 public class Jv_53_ThrowExceptionHandle3 {
