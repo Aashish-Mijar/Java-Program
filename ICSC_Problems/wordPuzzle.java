@@ -76,9 +76,20 @@ class wordPuzzle {
                     break;
                 }
             }
-            
+
+            if(fits){
+                // Place the word
+                for(int i=0; i<lowercaseWord.length(); i++){
+                    int r = startRow + 1*dr;
+                    int c = startCol + 1*dc;
+                    grid[r][c]= lowercaseWord.charAt(i);
+                }
+                placed = true;
+            }
+            attempts++;
         }
        }
+       return grid;
     }
     
 
