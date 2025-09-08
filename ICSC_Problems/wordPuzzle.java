@@ -32,8 +32,30 @@ class wordPuzzle {
             {1,1},
             {1,-1}
         };
-        
-       
+
+       for(String word: words){
+        String lowercaseWord = word.toLowerCase();
+        boolean placed = false;
+        int attempts = 0;
+
+        while(!placed && attempts<1000){
+            int[] dir = directions[rand.nextInt(directions.length)];
+            int dr = dir[0], dc = dir[1];
+
+            // Calculate valid start position boundaries
+            int maxRow = size-1;
+            int maxCol = size-1;
+            int minRow = 0;
+            int minCol = 0;
+
+            if(dr>0) maxRow = size-lowercaseWord.length();
+            if(dc>0) maxCol = size-lowercaseWord.length();
+            if(dc<0) minCol = lowercaseWord.length()-1;
+
+            
+
+        }
+       }
     }
     
 
