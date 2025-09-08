@@ -1,7 +1,7 @@
 import java.util.*;
 
 //  DO NOT MODIFY THE NAME OF THE CLASS
-class WordSearch {
+class wordPuzzle {
     
 
     /**
@@ -17,6 +17,22 @@ class WordSearch {
        int size = 10;
        char [][] grid = new char[size][size];
        Random rand = new Random();
+
+    //     Initialize grid with random lowercase letters
+        for(int i=0; i<size; i++){
+            for(int j =0; j<size; j++){
+                grid[i][j] = (char) ('a'+rand.nextInt(26));
+            }
+        }
+
+        //  Directions: {dr, dc} for horizontal, vertical, diagonal down-right, diagonal down-left
+        int[][] directions = {
+            {0,1},
+            {1, 0},
+            {1,1},
+            {1,-1}
+        };
+        
        
     }
     
