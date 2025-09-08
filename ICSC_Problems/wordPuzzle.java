@@ -52,8 +52,31 @@ class wordPuzzle {
             if(dc>0) maxCol = size-lowercaseWord.length();
             if(dc<0) minCol = lowercaseWord.length()-1;
 
+            if(minRow>maxRow || minCol>maxCol){
+                attempts++;
+                continue;
+            }
             
+            int startRow = minRow +(maxRow > minRow ? rand.nextInt(maxRow - minRow+1):0);
+            int startCol = minCol +(maxCol > minCol ? rand.nextInt(maxCol - minCol+1):0);
 
+            // Check if word fits without conflict
+            boolean fits = true;
+            for(int i =0; i < lowercaseWord.length(); i++){
+                int r = startRow + i*dr;
+                int c = startCol + i*dc;
+
+                if(r<0 || r>=size || c<0 || c>=size){
+                    fits = false;
+                    break;
+                }
+
+                if(grid[r][c]!=lowercaseWord.chartAt(i)){
+                    fits = false;
+                    break;
+                }
+            }
+            
         }
        }
     }
