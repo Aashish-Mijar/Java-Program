@@ -27,7 +27,8 @@ class CakeCalculator {
         int cakesFromSugar = sugar / sugarNeeded;
 
         // The limiting factor decided the maximum cakes
-
+        int cakes = Math.min(cakesFromFlour, cakesFromSugar);
+        
         
     }
    
