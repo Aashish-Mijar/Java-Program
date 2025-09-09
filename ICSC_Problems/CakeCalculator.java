@@ -28,8 +28,10 @@ class CakeCalculator {
 
         // The limiting factor decided the maximum cakes
         int cakes = Math.min(cakesFromFlour, cakesFromSugar);
-        
-        
+
+        // Calculate leftover ingredients
+        int flourLeft = flour - (cakes * flourNeeded);
+        int sugarLeft = flour - (cakes * sugarNeeded);
     }
    
     
