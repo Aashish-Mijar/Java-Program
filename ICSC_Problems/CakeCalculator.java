@@ -22,7 +22,12 @@ class CakeCalculator {
         int flourNeeded = 100;
         int sugarNeeded = 50;
 
-        
+        //  Calculate how many cakes can be made with flour and sugar
+        int cakesFromFlour = flour / flourNeeded;
+        int cakesFromSugar = sugar / sugarNeeded;
+
+        // The limiting factor decided the maximum cakes
+
         
     }
    
