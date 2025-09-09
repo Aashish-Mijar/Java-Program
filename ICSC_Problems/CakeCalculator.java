@@ -32,6 +32,9 @@ class CakeCalculator {
         // Calculate leftover ingredients
         int flourLeft = flour - (cakes * flourNeeded);
         int sugarLeft = flour - (cakes * sugarNeeded);
+
+        // Return result as array
+        return new int[] {cakes, flourLeft, sugarLeft};
     }
    
     
