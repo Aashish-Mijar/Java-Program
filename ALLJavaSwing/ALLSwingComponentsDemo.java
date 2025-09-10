@@ -5,6 +5,7 @@ import java.awt.*;
 import java.awt.event.*;
 
  class AllSwingComponentsDemo {
+    // Driver Function
     public static void main(String[] args) {
         // 1. Create the main frame
         JFrame frame = new JFrame("Swing Components Demo");
