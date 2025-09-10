@@ -31,7 +31,7 @@ import java.awt.event.*;
         group.add(radio1);
         group.add(radio2);
         
-        // Text Fields
+        // ------Text Fields-----
         JTextField textField = new JTextField(15);
         JPasswordField passwordField = new JPasswordField(15);
         JTextArea textArea = new JTextArea(5, 20);
