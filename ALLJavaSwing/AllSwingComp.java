@@ -23,7 +23,7 @@ import java.awt.event.*;
         JButton button = new JButton("Click Me");
         button.addActionListener(e -> JOptionPane.showMessageDialog(frame, "Button clicked!"));
         
-        // Checkbox & Radio Buttons
+        // ------Checkbox and radio button------
         JCheckBox checkBox = new JCheckBox("Check Me");
         JRadioButton radio1 = new JRadioButton("Option 1");
         JRadioButton radio2 = new JRadioButton("Option 2");
