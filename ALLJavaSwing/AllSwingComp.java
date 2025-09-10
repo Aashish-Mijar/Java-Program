@@ -110,21 +110,21 @@ import java.awt.event.*;
         // --- TAB 4: Dialogs & Progress ---
         JPanel dialogPanel = new JPanel(new FlowLayout());
         
-        // File Chooser
+        // -----File Chooser------
         JButton openFileBtn = new JButton("Open File");
         openFileBtn.addActionListener(e -> {
             JFileChooser fileChooser = new JFileChooser();
             fileChooser.showOpenDialog(frame);
         });
         
-        // Color Chooser
+        // -----Color Chooser-------
         JButton colorBtn = new JButton("Pick Color");
         colorBtn.addActionListener(e -> {
             Color color = JColorChooser.showDialog(frame, "Choose Color", Color.BLUE);
             colorBtn.setBackground(color);
         });
         
-        // Progress Bar
+        // -----Progress Bar-------
         JProgressBar progressBar = new JProgressBar(0, 100);
         progressBar.setValue(50);
         
@@ -134,7 +134,7 @@ import java.awt.event.*;
         
         tabbedPane.addTab("Dialogs", dialogPanel);
 
-        // Add tabs to frame and display
+        // -----Add tabs to frame and display-----
         frame.add(tabbedPane, BorderLayout.CENTER);
         frame.setVisible(true);
     }
