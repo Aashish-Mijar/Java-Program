@@ -37,11 +37,11 @@ import java.awt.event.*;
         JTextArea textArea = new JTextArea(5, 20);
         JScrollPane scrollTextArea = new JScrollPane(textArea);
         
-        // Combo Box
+        // ------Combo Box--------
         String[] options = {"Java", "Python", "C++"};
         JComboBox<String> comboBox = new JComboBox<>(options);
         
-        // Slider & Spinner
+        // -------Slider & Spinner------
         JSlider slider = new JSlider(0, 100, 50);
         JSpinner spinner = new JSpinner(new SpinnerNumberModel(0, 0, 10, 1));
         
@@ -71,7 +71,7 @@ import java.awt.event.*;
         String[] listData = {"Apple", "Banana", "Cherry"};
         JList<String> list = new JList<>(listData);
         
-        // Table
+        // -----Table------
         String[] columnNames = {"Name", "Age"};
         Object[][] data = {{"Alice", 25}, {"Bob", 30}, {"Charlie", 35}};
         JTable table = new JTable(data, columnNames);
